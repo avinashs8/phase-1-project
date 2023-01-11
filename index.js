@@ -22,6 +22,7 @@ fetch('http://localhost:3000/drinks')
             ingredients.innerText= " "
             measures.innerText= " "
             newReview.innerText= " "
+            
             const li = document.createElement('li')
             const li2 = document.createElement('li')
             const li3 = document.createElement('li')
