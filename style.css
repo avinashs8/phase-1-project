@@ -1,0 +1,10 @@
+#cocktail-menu {
+    display: flex;
+    overflow-x: auto;
+}
+
+#cocktail-menu img {
+    height: 150px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+  }
