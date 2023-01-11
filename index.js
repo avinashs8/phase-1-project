@@ -4,6 +4,8 @@ const instructions = document.querySelector("#comment-display")
 const cocktailName = document.querySelector("#cocktail-name")
 const measures = document.querySelector("#measures")
 const ingredients = document.querySelector("#ingredients")
+const newReview = document.querySelector("#reviews")
+const submitForm = document.querySelector("#new-review")
 
 fetch('http://localhost:3000/drinks')
 .then(resp => resp.json())
@@ -40,4 +42,10 @@ fetch('http://localhost:3000/drinks')
         })
         cocktailImgs.append(img)
     })
+})
+
+submitForm.addEventListener('submit', e => {
+    e.preventDefault()
+    let review = e.target.name.value
+    newReview.innerText = review
 })
