@@ -41,6 +41,7 @@ fetch('http://localhost:3000/drinks')
             list2.innerText = drink.strMeasure2
             list3.innerText = drink.strMeasure3
             list4.innerText = drink.strMeasure4
+            
             ingredients.append(li, li2, li3, li4)
             measures.append(list, list2, list3, list4)
         })
