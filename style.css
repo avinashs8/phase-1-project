@@ -8,3 +8,20 @@
     margin-right: 0.5rem;
     cursor: pointer;
   }
+
+  .parent {
+    border: 1px solid black;
+
+    padding: 2rem 2rem;
+    
+  }
+  .child {
+    display: inline-block;
+    border: 1px solid red;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+
+  #cocktail-name {
+    font-size: x-large;
+  }
